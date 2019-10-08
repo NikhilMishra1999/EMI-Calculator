@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nikhil.emi.Activity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#899188"
+        android:textSize="14dp"
+        android:text="Principal Amount"
+        android:textStyle="italic"
+        android:id="@+id/tv4"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/principal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#899188"
+        android:text="Total Payable Interest"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:id="@+id/tv5"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/tpi"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#899188"
+        android:text="EMI Amount (Monthly Instalment)"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:id="@+id/tv6"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#bb0988e9"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/emi2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SHARE"
+        android:layout_marginTop="10dp"
+        android:id="@+id/share"
+        android:backgroundTint="#bb23af1c"/>
+
+</LinearLayout>
